@@ -1,8 +1,8 @@
 chips.db : c_master.csv c_formal1.csv c_formal2.csv c_formal3.csv	\
            c_formal4.csv c_trailer.csv c_consolid.csv c_names.csv	\
            c_address.csv r_address.csv r_names.csv r_master.csv		\
-           r_formal1.csv tbl.r.formal2 tbl.rc.elect tbl.ud.elect	\
-           tbl.r.blocking tbl.r.consolid allegations regions
+           r_formal1.csv r_formal2.csv rc_elect.csv ud_elect.csv	\
+           r_blocking.csv r_consolid.csv allegations.csv regions.csv
 	csvs-to-sqlite $^ $@
 
 c_master.csv : raw/c_master.header TBL.C.MASTER
@@ -14,6 +14,17 @@ c_%.csv : raw/c_%.header tbl.c.%
 r_%.csv : raw/r_%.header tbl.r.%
 	cat $^ > $@
 
+rc_elect.csv : raw/rc_elect.header tbl.rc.elect
+	cat $^ > $@
+
+ud_elect.csv : raw/ud_elect.header tbl.ud.elect
+	cat $^ > $@
+
+allegations.csv : raw/allegations.header allegations
+	cat $^ > $@
+
+regions.csv : raw/regions.header regions
+	cat $^ > $@
 
 TBL.C.MASTER : TBL.C.MASTER.zip
 	unzip $<
