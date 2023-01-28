@@ -1,0 +1,32 @@
+name: Build database
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build-database:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: install requirements
+        run: pip install -r requirements.txt
+      - name: build database
+        run: |
+          make 
+      - name: prep file for release
+        run: |
+          zip chips.db.zip chips.db
+      - name: release
+        uses: WebFreak001/deploy-nightly@v1.2.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # automatically provided by github actions
+        with:
+          upload_url: https://uploads.github.com/repos/labordata/CHIPS/releases/90498783/assets{?name,label}
+          release_id: 90498783
+          asset_path: ./chips.db.zip # path to archive to upload
+          asset_name: chips.db.zip # name to upload the release as, use $$ to insert date (YYYYMMDD) and 6 letter commit hash
+          asset_content_type: application/zip # required by GitHub API
+          max_releases: 7 # optional, if there are more releases than this matching the asset_name, the oldest ones are going to be deleted
