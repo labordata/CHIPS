@@ -1,0 +1,64 @@
+Status,Definition
+00,Pending Preliminary Investigation
+01,Pre Complaint Dismissal Letter in Part
+02,Post Advice/Pre Complaint
+03,Post Advice or Abeyance
+04,Post Advice Petition for Injunction
+05,Post Appeal/Pre Complaint
+06,Dismissal Letter
+07,Dismissal Letter
+10,Advice Recommended Injunction
+11,Post Complaint Petition For Injunction
+12,Complaint
+13,Unfair Labor Practice Postponed
+14,Hearing Waived
+16,Another Hearing Ordered
+17,Supplemental Hearing
+18,Backpay Specifications
+19,Backpay Hearing
+20,Settlement
+21,Stipulated Decision
+22,Consent Decree
+24,Pending Complaint Post Administrative Law Judge
+25,Exceptions Withdrawn
+26,Pending Complaint Post Board
+27,Pending Complaint Post 10K
+28,Settlement After Referral for Enforcement
+29,Pending Complaint Post Administrative Law Judge
+30,Enforcement Circuit Court of Appeals Decree
+31,Contempt Circuit Court of Appeals Decree
+32,Supreme Court Action
+34,Pending Complaint Post Backpay
+35,Pending Complaint Post Administrative Law Judge
+36,Supplemental Board Decision
+38,Supplemental Circuit Court of Appeals Decree
+40,Advice Requested
+41,Deferred
+42,Formal Stipulation Received
+46,Pending Compliance
+50,Appeal Received
+52,Pending in Advice
+54,Injunction Sought
+60,Regional Director Request for Enforcement
+61,Enforcement Brief Filed
+62,Circuit Court of Appeals Opinion
+64,Circuit Court of Appeals Decree
+66,Referred for Contempt
+68,Referred to Enforcement
+70,Board Petition for Certeriority
+72,Petition for Certeriority
+74,Centeriority Granted
+76,Supreme Court Oral Argument
+80,Unfair Labor Practice Hearing Closed
+82,Board Order Remanded
+84,Board Order Remanded Supplemental
+86,Backpay Hearing Closed
+87,Administrative Law Judge Decision
+88,Administrative Law Judge Supplemental Decision Issued
+90,10K Hearing Closed
+91,Exceptions/Brief Filed
+92,Exceptions/Brief Filed
+93,Order Transferring to Board
+95,Referred to Board for Stipulation
+96,Supplemental Administrative Law Judge on Backpay
+97,Supplemental Administrative Law Judge Decision on Merits

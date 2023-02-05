@@ -1,0 +1,142 @@
+Trans,Action
+001,New Charge
+001,Pre Compl Dismissal Letter (Pre 3/24/92)
+002,C Case Reopened
+004,Settlement Agreement
+005,Complaint Issued
+006,10(k) Notice Issued
+007,10(k) Hearing Held
+008,Withdrawal
+009,Dismissal or Deferral
+00A,Delete New Charge
+00E,Delete Complaint
+00F,Delete 10K Notice of Hearing
+00H,Partial Withdrawal
+00J,Post Complaint Dismissal Letter
+00K,Deferral
+011,Closed Case Report
+014,Advice Actions
+015,Hearing Scheduled
+016,Appeal Filing or Response
+017,Case Transferred
+019,Back Pay Specifications
+045,(This is a beta test action.)
+094,Closed Case Report
+101,New Petition
+102,R Case Reopened
+104,Administrative Dismissal or Withdrawal
+105,Notice of Hearing - Original
+106,Notice of Hearing - Reopened
+107,Hearing Closed - Original
+108,Hearing Closed - Reopened
+109,Order Transferring to Board
+10A,Delete Petition
+10D,RD Administrative Dismissal Letter
+110,RD's Decision Directing Election
+111,RD's Decision Order Dismissing
+112,Waiver of Req For Rev of RD Decision
+113,Hearing Recommended or Ordered
+114,Hrg Closed on Obj/Chall
+115,Report on Obj/Chall - No Hearing
+116,Hearing Officers Report on Obj/Chall
+117,RD Supplemental Decision Post Election
+118,RD Supplemental Decision and Cert.
+119,Order Permitting Withdrawal
+120,Appeal/Exception/Req for Rev Filed
+121,Board Ruling
+122,Consolidation or Severance
+123,Case Closed by Certification
+124,Objections and/or Challenges
+125,Hearing Postponed/Rescheduled/Cancelled
+127,Case Transferred
+128,Objs/Chall Resolved W/O RD/BD Decision
+129,Order Dismissing - Case Closed
+131,(Delete) Error Corrections ?????
+132,C Case Blocks R Case
+133,BD Dec on Request/Review Pre Election
+134,BD Dec on Request/Review Post Election
+136,Tally Disposition - Closing of Specific?
+201,Election Agreement
+202,Election - Tally of Ballots Record (UD)
+203,Election - Tally of Ballots Record (RC)
+701,Automatic Decision
+702,Supple Dec & Order Dismissing Complaint
+703,Appeal Filing or Response
+705,Ord Trf BD/Notice Show Cause/Mot Sum Jud
+706,Administrative Law Judge Hearing Closed
+707,Receipt of Formal Settlement Stipulation
+708,Ord Grant Mot/Approv Stip/Trf To Board
+709,Decision and Deter of Dispute (CD Only)
+710,Settled After ALJ Hearing Closed
+711,Settle After Open/Before Hearing Closed
+712,Advice Actions
+713,Appeal Filing or Response
+714,Advice Actions
+715,Formal Settlement Stipulation Approved
+716,Exception to ALJ Decision
+717,Order Granting Motion to Dismiss
+718,Order Granting Motion to Withdraw
+719,Exceptions Withdrawn to ALJ Decision
+720,Opinion - Circuit Court Appeals
+721,Decree Grant Motion to W/D - Cir Ct Appl
+722,Decree Upholding Dismissal - Cir Ct Appl
+723,Referral to Supreme Court
+724,Decision - Supreme Court
+725,Action on Petition Denied - Supreme Ct
+726,Action on Petition Granted - Supreme Ct
+727,Argument - Supreme Court
+728,Suppl ALJ Dec/on Merits/After Ct Action
+729,Supplemental Board Dec & Order ON MERITS
+730,Supplemental Board Dec & Order (BACKPAY)
+731,Backpay Specifications
+732,Decree After Suppl Dec -Circuit Ct Appl
+733,Order Quashing 10(K) Notice
+752,Decree Enforcing Full/Part - Cir Ct Appl
+753,Decree Deny Enf/Set Aside/Vacate-Cir Ct
+756,Contested or Stipulated Decision
+757,Exceptions Filed to Supplemental ALJ Dec
+759,Board Dec and Order Remanding to ALJ
+760,Administrative Law Judge Decision
+762,Except Filed to Suppl ALJ Dec ON BACKPAY
+763,Supplemental ALJ Decision (BACKPAY)
+765,Backpay Hearing Closed (Not Remanded)
+782,Board Pet for Certiorari - Enforcement
+783,Refd for Enf/Consent Cases Only - Enfmt
+784,Consent Decree - Enforcement
+788,Settled after Ref to Ct/Before Brief Fld
+789,Briefs Filed - Circuit Court Appeals
+790,Ref for Contempt Proceeding- Enforcement
+791,Supplemental Decision After Remand
+792,Reopen Hrg/Closed After Board Remand
+793,Reopen Hrg After Board Remand
+794,Ref for Enf/Non-Consent - Enforcement
+795,Ref for Enf/Pet for Rev/Non Consent- Enf
+796,Ref for Enf/Summary Req/Non Consent-Enf
+797,Rec Cert/No Cert to be Filed-Supreme Ct
+798,Ref to Appellate Ct/After Suppl Dec- Enf
+801,Pre CHIPS (A R) Filings
+""
+Situation Coding
+""
+"In order to distinguish a single case coded 001 and a suffixed case coded 001, a control code for Situation is coded as"
+follows:
++ Single Case
++ Identified by a code 5
++ Suffixed Case
++ The lead case will have 001 in Suffix Field and 1 in Situation
++ Following cases will have 002 through 999 in Suffix Field and 4 in Situation Field
++ Companion Case
++ An individual of some other party filed similar charges against an employer and a union resulting in a CA and CB case;
+"+ CC and CD charges (or any combination of CB, CC, CD) are files against the same union."
+"+ The Key case in this kind of Situation will always be the case with the lowest docket number of the lowest type (CA,CB,CC,CD,CE,CG,CP) with a suffix of 001"
++ The Key case in this kind of grouping of cases will have a 2 in Situation
+"+ The Sub-Key in this kind of a group will be the next type (CB,CC,CD,CE,CG,CP) case with 001."
++ The Sub-Key (campanion case) will have a 3 in Situation
++  Suffixed Cases can be included in this type of group
++ Cross Filing
++ A proper defination is needed at this point
+"+ The Key case in this kind of Situation will always be the case with the lowest docket number of the lowest type (CA,CB,CC,CD,CE,CG,CP) with a suffix of 001"
++ The Key case in this kind of grouping of cases will have a 6 in Situation
+"+ The Sub-Key in this kind of a group will be the next type (CB,CC,CD,CE,CG,CP) case with 001."
++ The Sub-Key (campanion case) will have a 7 in Situation
++ Suffixed Cases can be included in this type of group

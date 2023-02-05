@@ -1,0 +1,42 @@
+Stage,Method,Definition
+&,4,Circuit Court of Appeals Decree
+&,5,Circuit Court of Appeals Decree
+0,2,Informal Settlement
+0,3,Non-Board Settlement
+0,L,Non-Board Settlement (Oral)
+1,0,Dismissed after Complaint
+1,1,Withdrawn after Complaint
+1,2,Informal Settlement
+1,3,Non-Board Settlement
+1,L,Non-Board Settlement
+2,0,Dismissed after Complaint
+2,1,Withdrawn after Complaint
+2,2,Informal Settlement
+2,3,Non-Board Settlement
+2,L,Informal Settlement
+3,0,Dismissed after Complaint
+3,1,Withdrawn after Complaint
+3,4,Administrative Law Judge Decision
+3,5,Administrative Law Judge Decision
+4,0,Dismissed after Complaint
+4,1,Withdrawn after Complaint
+4,4,Board Decision
+4,5,Board Decision
+5,0,Dismissed after Complaint
+5,1,Withdrawn after Complaint
+5,4,Stipulated Decision
+5,5,Stipulated Decision
+6,0,Dismissed after Complaint
+6,1,Withdrawn after Complaint
+6,4,Board Decision
+6,5,Board Decision
+7,0,Dismissed after Complaint
+7,1,Withdrawn after Complaint
+7,4,Consent Decree
+7,5,Consent Decree
+8,4,Circuit Court of Appeals Decree
+8,5,Circuit Court of Appeals Decree
+9,4,Supreme Court Action
+9,5,Supreme Court Action
+R,4,Circuit Court of Appeals Decree
+R,5,Circuit Court of Appeals Decree

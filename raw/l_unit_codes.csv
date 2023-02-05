@@ -1,0 +1,10 @@
+Code,Definition
+A,"Industrial (production and maintenance - P & M) and all employee units with customary exclusions, e.g., office clerical employees, guards, supervisors"
+C,Craft - one or more
+D,Departmental - one or more
+G,Guards
+P,Professional and/or Technical
+R,Combination of codes P and W
+T,"Truck Drivers, etc."
+W,"Office, clerical and other white collar"
+Z,All others not classified
