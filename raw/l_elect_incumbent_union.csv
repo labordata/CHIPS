@@ -1,0 +1,8 @@
+code,incumbent_union
+0,No Incumbent Union
+1,Incumbent Union not on Ballot
+2,Incumbent Union petitioner - winner
+3,Incumbent Union intervenor - winner
+4,Incumbent Union petitioner - loser 1
+5,Incumbent Union Intervenor - loser 2
+6,Incumbent Union Intervenor - loser 3

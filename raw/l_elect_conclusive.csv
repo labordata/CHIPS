@@ -1,0 +1,10 @@
+code,conclusive_election_control
+1,"First election conclusive, no other election held. Include the final tally for indeteminate elections."
+2,"First election indeterminate, original tally or case closed without determination; and the first elections which were voided and no subsequent (re-run) election held."
+3,"First election's results voided subsequent (re-run) election held."
+4,"First election results in runoff, re-run ejection held."
+5,"Second election conclusive, no subsequent (re-run) election held . Include final tally for second elections in which results were indeterminate and then determined."
+6,"Second election indeterminate, originally tally or case closed without determination; and second elections which were voided and no subsequent (re-run) election held."
+7,"Second election's results voided, subsequent (re-run) election held."
+8,"Second election results in runoff, re-run election held."
+9,"Third, fourth, or more elections before being conclusive."

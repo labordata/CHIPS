@@ -1,6 +1,5 @@
 trans,action
-001,New Charge
-001,Pre Compl Dismissal Letter (Pre 3/24/92)
+001,New Charge / Pre Compl Dismissal Letter (Pre 3/24/92)
 002,C Case Reopened
 004,Settlement Agreement
 005,Complaint Issued
@@ -115,28 +114,3 @@ trans,action
 797,Rec Cert/No Cert to be Filed-Supreme Ct
 798,Ref to Appellate Ct/After Suppl Dec- Enf
 801,Pre CHIPS (A R) Filings
-""
-Situation Coding
-""
-"In order to distinguish a single case coded 001 and a suffixed case coded 001, a control code for Situation is coded as"
-follows:
-+ Single Case
-+ Identified by a code 5
-+ Suffixed Case
-+ The lead case will have 001 in Suffix Field and 1 in Situation
-+ Following cases will have 002 through 999 in Suffix Field and 4 in Situation Field
-+ Companion Case
-+ An individual of some other party filed similar charges against an employer and a union resulting in a CA and CB case;
-"+ CC and CD charges (or any combination of CB, CC, CD) are files against the same union."
-"+ The Key case in this kind of Situation will always be the case with the lowest docket number of the lowest type (CA,CB,CC,CD,CE,CG,CP) with a suffix of 001"
-+ The Key case in this kind of grouping of cases will have a 2 in Situation
-"+ The Sub-Key in this kind of a group will be the next type (CB,CC,CD,CE,CG,CP) case with 001."
-+ The Sub-Key (campanion case) will have a 3 in Situation
-+  Suffixed Cases can be included in this type of group
-+ Cross Filing
-+ A proper defination is needed at this point
-"+ The Key case in this kind of Situation will always be the case with the lowest docket number of the lowest type (CA,CB,CC,CD,CE,CG,CP) with a suffix of 001"
-+ The Key case in this kind of grouping of cases will have a 6 in Situation
-"+ The Sub-Key in this kind of a group will be the next type (CB,CC,CD,CE,CG,CP) case with 001."
-+ The Sub-Key (campanion case) will have a 7 in Situation
-+ Suffixed Cases can be included in this type of group

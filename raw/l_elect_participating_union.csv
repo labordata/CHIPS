@@ -1,0 +1,16 @@
+code,participating_union
+A,AFL-CIO Alone
+B,Teamsters (Unaffiliated.) Alone
+C,National Unaffiliated Alone
+D,Local Unaffiliated Alone
+E,AFL-CIO v. AFL-CIO
+F,AFL-CIO v. Teamsters
+G,AFL-CIO v. National Unaffiliated
+H,AFL-CIO v. Local Unaffiliated
+J,Teamsters v. National Unaffiliated
+K,Teamsters v. Local Unaffiliated
+L,Teamsters v. Teamsters
+M,National Unaffiliated v. Local Unaffiliated
+N,National Unaffiliated v. National Unaffiliated
+P,Local Unaffiliated v. Local Unaffiliated.
+R,3 or more Unions (same or different affiliations)

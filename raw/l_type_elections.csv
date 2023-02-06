@@ -1,6 +1,6 @@
-code,type_election
-B,Board ordered election
-C,"Consent - election held pursuant to Agreement for Consent Election (objections and/or challenges, if any, resolved by Regional Director)"
-E,Expedited election processed under 8(b)(7)(C)
-R,Regional Director ordered election
-S,"Stipulation - election held pursuant to Stipulation for Certification upon Consent Election (Objections and/or Challenges, if any, ruled upon by Board following exceptions to Regional Director's report of objections and/or challenges)"
+code,type_election,description
+B,Board Ordered,Board ordered election
+C,Consent,"Consent - election held pursuant to Agreement for Consent Election (objections and/or challenges, if any, resolved by Regional Director)"
+E,Expedited,Expedited election processed under 8(b)(7)(C)
+R,Regional Director Ordered,Regional Director ordered election
+S,Stipulation,"Stipulation - election held pursuant to Stipulation for Certification upon Consent Election (Objections and/or Challenges, if any, ruled upon by Board following exceptions to Regional Director's report of objections and/or challenges)"
